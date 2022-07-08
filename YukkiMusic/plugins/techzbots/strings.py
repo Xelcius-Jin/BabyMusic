@@ -29,10 +29,10 @@ START_BUTTON_GROUP = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="📣 Updates Channel", url="https://t.me/TechZBots"
+                text="📣 Anime Channel", url="https://t.me/Anime_Cruise"
             ),
             InlineKeyboardButton(
-                text="💬 Support Group", url="https://t.me/TechZBots_Support"
+                text="📣 The Kaizuryu", url="https://t.me/TheKaizuryu"
             ),                       
         ],        
     ]
@@ -51,11 +51,11 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="📣 Updates Channel", url="https://t.me/TechZBots"
+                text="📣 Anime Channel", url="https://t.me/Anime_Cruise"
             ),
             InlineKeyboardButton(
-                text="💬 Support Group", url="https://t.me/TechZBots_Support"
-            ),                       
+                text="📣 The Kaizuryu", url="https://t.me/TheKaizuryu"
+            ),                        
         ],        
     ]
 )
@@ -72,10 +72,7 @@ COMMANDS_BUTTON_USER = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="Play Commands", callback_data="play_cmd"
-            ),            
-            InlineKeyboardButton(
-                text="Extra Commands", url="https://telegra.ph/SiestaXMusic-Commands-03-13-2"
-            ),                                   
+            ),                                               
         ],
         [
             InlineKeyboardButton(
@@ -100,15 +97,7 @@ COMMANDS_BUTTON_SUDO = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="Play Commands", callback_data="play_cmd"
-            ),
-            InlineKeyboardButton(
-                text="Sudo Commands", url="https://telegra.ph/SiestaXMusic-Commands-03-13"
             ),            
-        ],
-        [
-            InlineKeyboardButton(
-                text="Extra Commands", url="https://telegra.ph/SiestaXMusic-Commands-03-13-2"
-            ),                                   
         ],
         [
             InlineKeyboardButton(
@@ -134,11 +123,7 @@ BACK_BUTTON = InlineKeyboardMarkup(
 )
 
 SUDO_BACK_BUTTON = InlineKeyboardMarkup(
-    [   [
-            InlineKeyboardButton(
-                text="Sudo Commands", url="https://telegra.ph/SiestaXMusic-Commands-03-13"
-            ),                        
-        ],
+    [  
         [
             InlineKeyboardButton(
                 text="↪️ Back", callback_data="advanced_cmd"
