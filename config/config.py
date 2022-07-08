@@ -48,7 +48,9 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001590943170"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "VivyXMusic")
 
 # Your User ID.
-OWNER_ID = int(getenv("OWNER_ID", "5132611794"))  # Input type must be interger
+OWNER_ID = list(
+    map(int, getenv("OWNER_ID", "5132611794").split())
+) # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
