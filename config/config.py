@@ -21,7 +21,7 @@ API_ID = int(getenv("API_ID", "16840596"))
 API_HASH = getenv("API_HASH", "9d52cd80e66e51e3e0f7934d89dd72b6")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5010146914:AAELpAHGKvDpeR1TJq2pFhudPiqgW9F8dSA")
+BOT_TOKEN = getenv("BOT_TOKEN", "5533385439:AAFGV_cJWfG03fb1Mj55PqAI0pGfXJfzMag")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://xelcius:raizel~97@cluster0.gj9j8.mongodb.net/cluster0?retryWrites=true&w=majority")
@@ -45,7 +45,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001590943170"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "VivyXMusic")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "AsukaRobot")
 
 # Your User ID.
 OWNER_ID = list(
@@ -63,7 +63,7 @@ UPSTREAM_REPO = "https://github.com/TechShreyash/SiestaXMusic"
 UPSTREAM_BRANCH = "main"
 
 # GIT TOKEN ( if your edited repo is private)
-GIT_TOKEN = getenv("GIT_TOKEN", "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")
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True").capitalize()
@@ -159,7 +159,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/10c9b9e904b1eb660b451.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/4f5d3e5091aa3ea755bc5.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
